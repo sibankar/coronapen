@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+html{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* navbar starts from here */
+
+nav{
+    background-color: rgb(255, 255, 255);
+}
+
+nav.navbar{
+    padding: 1.5rem 2rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    padding: 0rem 0.9rem;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+#navbarSupportedContent > ul > li:nth-child(1) > a{
+    color: orangered;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: orangered;
+}
+
+#navbarSupportedContent > a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-weight: 600;
+    width: 7.9rem;
+    border: 1px solid black;
+    transition: 0.4s ease;
+    letter-spacing: 2px;
+}
+
+#navbarSupportedContent > a:hover{
+    color: black;
+    background-color: white;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+header{
+    position: relative;
+    height: 40rem;
+}
+
+header::before{
+    content: "";
+    background: url(../images/bannerbg.jpg.jpg) center center/cover no-repeat;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* navbar media wueries starts from here */
+
+  @media only screen and (min-width:280px) and (max-width:991px) {
+
+      
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    padding: 0.8rem 0rem;
+    text-align: center;
+}    
+nav.navbar{
+    padding: 1.5rem 0.4rem;
+    display: flex;
+}
+header{
+    height: 40rem;
+}
+
+  }
+
+   /* banner starts from here */
+
+
+.welcome-box{
+    color: white;
+    position: relative;
+    margin-top: 12rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 450;
+    /* border: 2px solid white; */
+}
+
+.big-text{
+    font-size: 6.5rem;
+    letter-spacing: -1px;
+}
+
+.small-para{
+    width: 26rem;
+    margin-top: -18px;
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+     font-weight: 450;
+}
+
+  .welcome-box::before{
+      position: absolute;
+      background: #fff;
+      content: "";
+      height: 2.5px;
+      width: 68%;
+      top: 12%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 1;
+      opacity: 1;
+
+
+  }
+
+  .welcome-box::after{
+    position: absolute;
+    background: #fff;
+    content: "";
+    height: 2.5px;
+    width: 68%;
+    bottom: -12%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+@media only screen and (min-width:280px) and (max-width:416px) {
+
+    .small-para{
+        width: 280px;
+        font-size: 0.9rem;
+        letter-spacing: 1.3px;
+         font-weight: 400;
+         margin-top: -13px;
+    }
+    .welcome-box{
+        font-size: 0.9rem;
+        font-weight: 580;
+        /* border: 2px solid white; */
+    }
+    .big-text{
+        font-size:4rem;
+        letter-spacing: -1px;
+    }
+    
+
+}
+
+  /* banner ends here */
+
+  /* product section starts from here */
+
+  .row .main-left{
+      /* background: #000; */
+      height: 50rem;
+  }
+
+  .row .main-right{
+      background: #fff;
+      height: 50rem;
+  }
+
+  .row .top{
+      /* background: #FFf; */
+      height: 30rem;
+  }
+
+  .row .bottom{
+      background: linear-gradient(33.8deg, rgb(7, 7, 7) 50%, rgba(2, 1, 1, 0.9) 50%);
+      height: 30rem;
+  }
+
+  .row .sub-right{
+      background: orange;
+      height: 30rem;
+  }
+
+  .sub-left{
+      height: 30rem;
+      background: rgb(255, 255, 255)
+      ;
+      color: rgb(7, 7, 7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* text-align: left; */
+      flex-direction: column;
+  }
+
+  .sub-right-top{
+      background: rgb(192, 114, 86);
+      height: 15rem;
+  }
+
+  .sub-right-bottom{
+      background: rgb(7,7,7) ;
+      height: 15rem;
+  }
+
+  .text-box{
+      padding-top: 2rem
+  }
+  .text-box p{
+      font-weight: 500;
+      font-size: 0.9rem;
+  }
+
+  .content-bx{
+     margin-left: 6rem;
+     padding: 2rem 2rem ;
+  }
+
+  .show-heading{
+      font-weight: 650;
+      font-size: 1.1rem;
+}
+
+.svg-section{
+    font-weight: 400;
+    letter-spacing: 2px;
+    /* display: flex;
+    justify-content: start;
+    align-items: center; */
+    font-weight: -100;
+}
+.svg-section p{
+font-size: 1.5rem;
+}
