@@ -152,8 +152,30 @@ header{
 
 
 
-
-
+.sub-right-top img{
+    position: absolute;
+    top: 0;
+    right:25%;
+    z-index: 2;
+}
+.sub-right-bottom img{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    z-index: 2;
+}
+.right-bottom-text{
+    position: absolute;
+    top: 5%;
+    font-weight: bold;
+    font-size: 40px;
+}
+.right-top-text{
+    position: absolute;
+    bottom: 5%;
+    font-weight: bold;
+    font-size: 40px;
+}
 
 
 @media only screen and (min-width:280px) and (max-width:416px) {
@@ -230,11 +252,13 @@ header{
   }
 
   .text-box{
-      padding-top: 2rem
+      padding: 2rem 0;
   }
   .text-box p{
-      font-weight: 500;
-      font-size: 0.9rem;
+    
+      font-size: 16px;
+      color: #5a5a5a;
+      margin: 0;
   }
 
   .content-bx{
@@ -243,8 +267,8 @@ header{
   }
 
   .show-heading{
-      font-weight: 650;
-      font-size: 1.1rem;
+    
+      font-size: 26px;
 }
 
 .svg-section{
@@ -256,7 +280,10 @@ header{
     font-weight: -100;
 }
 .svg-section p{
-font-size: 1.5rem;
+font-size: 30px;
+}
+.svg-section .fa-phone-alt{
+ transform: rotate(10deg);
 }
 
 
