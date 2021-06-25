@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+@import url('../font/font.css');
 *{
+    font-family: 'ITC Avant Garde Gothic Std Medium';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
