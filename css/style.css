@@ -20,6 +20,27 @@ html{
     transition: 0.4s ease;
     letter-spacing: 2px;
 }
+.btn-white{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    font-weight: 600;
+    padding: 16px 40px;
+    transition: 0.4s ease;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+.btn-trp{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 600;
+    padding: 14px 25px;
+    transition: 0.4s ease;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border: 2px solid #fff;
+}
 /* navbar starts from here */
 
 nav{
@@ -48,8 +69,10 @@ nav.navbar{
 
 
 #navbarSupportedContent > a:hover{
-    color: black;
-    background-color: white;
+    color: white;
+    /*background-color: white;*/
+    text-decoration: initial;
+    
 }
 
 .navbar-brand{
@@ -81,20 +104,20 @@ nav.navbar{
     padding: 1.5rem 0.4rem;
     display: flex;
 }
-header{
-    height: 40rem;
-}
+
 
   }
 
    /* banner starts from here */
 
-
+.mar-left-60{
+    margin-left: 60px;
+}
 .welcome-box{
     color: white;
     position: relative;
     margin-top: 13rem;
-    font-size: 2rem;
+    font-size: 45px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,22 +127,24 @@ header{
 }
 
 .big-text{
-    font-size: 6.5rem;
+    font-size: 145px;
     letter-spacing: -1px;
+    margin-right: 20px;
+    
 }
-
 .small-para{
-    width: 26rem;
+   
     margin-top: -18px;
     /* border: 1px solid red; */
+    width: 100%;
     position: absolute;
-    top: 58%;
-    left: 50%;
-    color: white;
-    transform: translate(-50%,-50%);
-    font-size: 1.6rem;
+    left: 0;
+    right: -5%;
+    bottom: -15%;
+    font-size: 26px;
     letter-spacing: 2px;
-     font-weight: 450;
+     
+     white-space: nowrap;
 }
 
   .welcome-box::before{
@@ -292,3 +317,6 @@ footer{
     background-color: #1f2227;
     color: #fff;
 }
+
+
+
