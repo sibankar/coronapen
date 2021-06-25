@@ -313,10 +313,223 @@ font-size: 30px;
 
 
 /*footer*/
-footer{
-    background-color: #1f2227;
+ /* footer starts from here */
+
+ .footer-top{
+    background:#c9704b;
+    height: 9.5rem;
+    color: rgb(255, 255, 255);
+}
+.img-box {
+    /* border: 2px solid white; */
+    height: 9.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.img-box img{
+    height: 8.5rem;
+}
+
+.text-box{
+    /* border: 2px solid white; */
+    height: 9.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-box1 p{
+    font-size: 1.15rem;
+    font-weight: 650;
+    line-height: -15px;
     color: #fff;
+
 }
 
 
 
+
+
+.contact-box{
+    /* border: 2px solid white; */
+    height: 9.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phone-number{
+    background-color: white;
+    border: 1px solid white;
+    width: 15rem;
+    color: #c9704b;
+    font-weight: 650;
+    word-spacing: 7px;
+    padding: 0.1rem;
+    font-size: 1.25rem;
+   text-align: center;
+}
+
+@media only screen and (min-width:320px) and (max-width:991px){
+
+    .footer-top{
+        height: auto;
+    }
+}
+
+.footer-bottom{
+    color: rgb(151, 151, 151);
+    background-color: rgb(15, 15, 15);
+    height: 25rem;
+    border-top: 0.5px solid rgb(158, 158, 158);
+    border-left: 1.5px solid rgb(158, 158, 158);
+    border-right: 1.5px solid rgb(158, 158, 158);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer-bottom .links,
+               .contacts{
+                   display: flex;
+                   justify-content: center;
+                   flex-direction: column;
+               }
+
+
+               .links h6{
+                   position: relative;
+                   font-weight: 700;
+                   font-size: 1.1rem;
+                   color: white;
+                   font-weight: 550;
+                   padding-bottom: 2px;
+               }
+
+               .contacts h6{
+                position: relative;
+                font-weight: 700;
+                font-size: 1.1rem;
+                color: white;
+                font-weight: 550;
+                padding-bottom: 2px;
+            }
+
+.links h6::before{
+    content: "";
+    background: grey;
+    height: 1px;
+    width: 70%
+    ;
+    position: absolute;
+    top: 200%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}  
+
+.contacts h6::before{
+    content: "";
+    background: grey;
+    height: 1px;
+    width: 70%
+    ;
+    position: absolute;
+    top: 200%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+} 
+
+.about-heading{
+    color: white;
+    font-size: 2.45rem;
+    letter-spacing: 1px;
+}
+
+.footer-bottom ul li{
+      list-style-type: none;
+} 
+
+.footer-bottom ul li a{
+    text-decoration: none;
+}
+
+.links-body ul li a{
+    margin-right: -10px;
+}
+
+.contacts-body ul li a{
+    margin-right: -10px;
+}
+
+
+body > section.footer-bottom > div > div.row > div.col-lg-4.links.mt-lg-5.pl-lg-5 > div.links-body.pt-3.pb-3.pr-3 > ul > li:nth-child(n){
+    color: rgb(202, 202, 202);
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+body > section.footer-bottom > div > div.row > div.col-lg-4.contacts.mt-lg-5.pl-lg-5 > div.contacts-body.pt-3.pb-3.pr-3 > ul > li:nth-child(n){
+    color: whitesmoke;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+
+.social{
+    font-size: 2.1rem;
+    margin-right: 2rem;
+    margin-bottom: -20px;
+    color: white;
+}
+
+.local{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.last-row{
+    margin-top: 6rem;
+    position: relative;
+}
+
+.last-row::before{
+    content: "";
+    background: grey;
+    height: 0.5px;
+    width: 100%;
+    position: absolute;
+    top: -20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateX(-100%);
+    transform: translatey(-50%);
+}
+
+@media only screen and (min-width:320px) and (max-width:991px){
+
+    .footer-bottom{
+        height: auto;
+    }
+        
+    .footer-bottom .col-lg-4{
+        margin: 1.1rem 0rem;
+    }
+
+    .last-row{
+        margin-top: 2rem;
+    }
+}
+
+/*about page start*/
+
+.about-banner{
+    background-color: #ffd9c9;
+    padding: 100px 0;
+}
+.about-banner-content{
+    
+}
