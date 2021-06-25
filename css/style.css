@@ -110,8 +110,9 @@ nav.navbar{
 
    /* banner starts from here */
 
-.mar-left-60{
+.mar-left-60-ban-btn{
     margin-left: 60px;
+    margin-top: 30px;
 }
 .welcome-box{
     color: white;
@@ -134,7 +135,7 @@ nav.navbar{
 }
 .small-para{
    
-    margin-top: -18px;
+   
     /* border: 1px solid red; */
     width: 100%;
     position: absolute;
@@ -203,27 +204,7 @@ nav.navbar{
 }
 
 
-@media only screen and (min-width:280px) and (max-width:416px) {
 
-    .small-para{
-        width: 280px;
-        font-size: 0.9rem;
-        letter-spacing: 1.3px;
-         font-weight: 400;
-         margin-top: -13px;
-    }
-    .welcome-box{
-        font-size: 0.9rem;
-        font-weight: 580;
-        /* border: 2px solid white; */
-    }
-    .big-text{
-        font-size:4rem;
-        letter-spacing: -1px;
-    }
-    
-
-}
 
   /* banner ends here */
 
@@ -231,12 +212,12 @@ nav.navbar{
 
   .row .main-left{
       /* background: #000; */
-      height: 50rem;
+     
   }
 
   .row .main-right{
       background: #fff;
-      height: 50rem;
+     
   }
 
   .row .top{
@@ -357,16 +338,34 @@ font-size: 30px;
     align-items: center;
     justify-content: center;
 }
+
+
+
 .phone-number{
     background-color: white;
     border: 1px solid white;
-    width: 15rem;
+  
     color: #c9704b;
     font-weight: 650;
     word-spacing: 7px;
-    padding: 0.1rem;
-    font-size: 1.25rem;
-   text-align: center;
+    padding: 20px 45px;
+    font-size: 28px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.phone-number a{
+ 
+  
+    color: #c9704b;
+  
+}
+.phone-number a:hover{
+ 
+    color: #c9704b;
+    text-decoration: initial;
+   
+  
 }
 
 @media only screen and (min-width:320px) and (max-width:991px){
@@ -508,6 +507,9 @@ body > section.footer-bottom > div > div.row > div.col-lg-4.contacts.mt-lg-5.pl-
     transform: translateX(-100%);
     transform: translatey(-50%);
 }
+footer{
+    position: relative;
+}
 
 @media only screen and (min-width:320px) and (max-width:991px){
 
@@ -532,4 +534,91 @@ body > section.footer-bottom > div > div.row > div.col-lg-4.contacts.mt-lg-5.pl-
 }
 .about-banner-content{
     
+}
+.main-right img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bd-example{
+    padding: 40px 60px;
+    height: 100%;
+}
+#carouselExampleCaptions{
+    height: 100%;
+}
+.carousel-indicators li {
+   
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.carousel-caption {
+    position: initial; 
+    right: initial; 
+    bottom: initial; 
+    left: initial; 
+    z-index: 10;
+    padding-top: 50px;
+    padding-bottom: 20px;
+ 
+}
+
+.carousel-indicators {
+ 
+    bottom: -10%;
+}
+
+.feature-section {
+background-image: url(../images/home/background.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 100px 0;
+}
+.heading-feature h1{
+    font-size: 58px;
+    color: white;
+    text-transform: uppercase;
+    width: 65%;
+    margin: auto;
+    line-height: 80px;
+}
+
+.text-box1{
+    margin:  auto;
+}
+@media (min-width:991px) and (max-width: 1365px) {
+    .content-bx {
+        margin-left: 2rem;
+        /* padding: 2rem 2rem; */
+    }
+}
+
+@media (max-width: 991px) {
+    .mar-left-60-ban-btn{
+    margin-left: auto;
+      text-align: center;
+    }
+    .big-text {
+        font-size: 70px;
+        letter-spacing: -1px;
+        margin-right: 20px;
+    }
+    .welcome-box {
+       
+        font-size: 21px;
+    }
+
+    .small-para {
+      
+        font-size: 16px;
+    }
+    
+}
+
+
+@media (max-width:1200px){
+    .main-right {
+        display: none;
+    }
 }
