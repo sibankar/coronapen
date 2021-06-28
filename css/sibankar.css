@@ -5,6 +5,13 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.product-banner1{
+    background: url(../images/about/about-main.png);
+    padding: 100px 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .product-bg1 {
     background: linear-gradient( 
 32.8deg
@@ -31,4 +38,24 @@
 }
 .product-section{
     margin-bottom: 80px;
+}
+.bg-black{
+    background: #090c11;
+    color: #c0c0c2;
+    padding: 80px 100px;
+}
+.bg-black p{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.bg-black h4{
+    font-size: 27px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.px-5 .container-fluid{
+  width: 85%;
 }
