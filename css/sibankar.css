@@ -59,3 +59,102 @@
 .px-5 .container-fluid{
   width: 85%;
 }
+.bg-white{
+    background: #f4f4f4;
+}
+.img-top{
+    position: absolute;
+    top: 0;
+}
+.img-bottom{
+    position: absolute;
+    bottom: 0;
+}
+@media (max-width:1440px){
+    .bg-black {
+        background: #090c11;
+        color: #c0c0c2;
+        padding: 50px 90px;
+    }
+    .bg-black p {
+        font-size: 12px;
+        line-height: 21px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .bg-black h4 {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:991px){
+    .bg-black p {
+        font-size: 12px;
+        line-height: 21px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
+    .img-bottom {
+        position: relative;
+        bottom: 0;
+    }
+    .bg-black h4 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+    .bg-black {
+        background: #090c11;
+        color: #c0c0c2;
+        padding: 20px;
+    }
+    .img-top {
+        position: relative;
+        bottom: 0;
+    }
+}   
+@media (min-width:992px){
+.about-section{
+    padding: 0 50px !important;
+}
+}
+
+  /* contact us section starts from here */
+
+
+  .contacts .log-in{
+    background: rgba(176, 176, 176,0.3);
+    height: auto;
+    max-width: 1200px;
+    padding: 0rem 2.5rem;
+}
+
+.log-in   .address{
+height: 2.3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(200, 76, 31);
+}
+.log-in-heading{
+word-spacing: 1.5px;
+font-weight: 400;
+font-size: 2.3rem;
+}
+
+.log-in-body .btn-link{
+color: white;
+text-decoration: none;
+background-color: black;
+font-weight: 450;
+width: 7.1rem;
+border: 1px solid black;
+transition: 0.4s ease;
+letter-spacing: 1.5px;
+border-radius: 0px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px){
+   
+.log-in .address{
+   padding-bottom: 2.9rem;
+}
+}
