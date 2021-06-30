@@ -91,22 +91,6 @@ nav.navbar{
 }
 
 
-/* navbar media wueries starts from here */
-
-  @media only screen and (min-width:280px) and (max-width:991px) {
-
-      
-#navbarSupportedContent > ul > li:nth-child(n) > a{
-    padding: 0.8rem 0rem;
-    text-align: center;
-}    
-nav.navbar{
-    padding: 1.5rem 0.4rem;
-    display: flex;
-}
-
-
-  }
 
    /* banner starts from here */
 
@@ -210,10 +194,7 @@ nav.navbar{
 
   /* product section starts from here */
 
-  .row .main-left{
-      /* background: #000; */
-     
-  }
+ 
 
   .row .main-right{
       background: #fff;
@@ -227,7 +208,7 @@ nav.navbar{
 
   .row .bottom{
       background: linear-gradient(33.8deg, rgb(7, 7, 7) 50%, rgba(2, 1, 1, 0.9) 50%);
-      height: 30rem;
+    
   }
 
   .row .sub-right{
@@ -268,7 +249,7 @@ nav.navbar{
   }
 
   .content-bx{
-     margin-left: 6rem;
+     
      padding: 2rem 2rem ;
   }
 
@@ -283,7 +264,7 @@ nav.navbar{
     /* display: flex;
     justify-content: start;
     align-items: center; */
-    font-weight: -100;
+    
 }
 .svg-section p{
 font-size: 30px;
@@ -295,7 +276,9 @@ font-size: 30px;
 
 /*footer*/
  /* footer starts from here */
-
+.footer-head{
+    display: flex;
+}
  .footer-top{
     background:#c9704b;
     height: 9.5rem;
@@ -314,7 +297,7 @@ font-size: 30px;
 
 .text-box{
     /* border: 2px solid white; */
-    height: 9.5rem;
+   
     display: flex;
     align-items: center;
 }
@@ -368,12 +351,6 @@ font-size: 30px;
   
 }
 
-@media only screen and (min-width:320px) and (max-width:991px){
-
-    .footer-top{
-        height: auto;
-    }
-}
 
 .footer-bottom{
     color: rgb(151, 151, 151);
@@ -511,20 +488,6 @@ footer{
     position: relative;
 }
 
-@media only screen and (min-width:320px) and (max-width:991px){
-
-    .footer-bottom{
-        height: auto;
-    }
-        
-    .footer-bottom .col-lg-4{
-        margin: 1.1rem 0rem;
-    }
-
-    .last-row{
-        margin-top: 2rem;
-    }
-}
 
 /*about page start*/
 
@@ -532,7 +495,9 @@ footer{
     background-color: #ffd9c9;
     padding: 100px 0;
 }
-
+.about-banner-content{
+    
+}
 .main-right img{
     position: absolute;
     right: 0;
@@ -577,7 +542,7 @@ padding: 100px 0;
     font-size: 58px;
     color: white;
     text-transform: uppercase;
-    width: 65%;
+    width: 70%;
     margin: auto;
     line-height: 80px;
 }
@@ -585,38 +550,6 @@ padding: 100px 0;
 .text-box1{
     margin:  auto;
 }
-@media (min-width:991px) and (max-width: 1365px) {
-    .content-bx {
-        margin-left: 2rem;
-        /* padding: 2rem 2rem; */
-    }
-}
-
-@media (max-width: 991px) {
-    .mar-left-60-ban-btn{
-    margin-left: auto;
-      text-align: center;
-    }
-    .big-text {
-        font-size: 70px;
-        letter-spacing: -1px;
-        margin-right: 20px;
-    }
-    .welcome-box {
-       
-        font-size: 21px;
-    }
-
-    .small-para {
-      
-        font-size: 16px;
-    }
-    
-}
 
 
-@media (max-width:1200px){
-    .main-right {
-        display: none;
-    }
-}
+

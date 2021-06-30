@@ -1,13 +1,151 @@
 /**/
-@media (max-width:768px){
+/* navbar media wueries starts from here */
+@media (max-width:360px) {
+
+    .carousel-indicators {
+        bottom: -30%;
+    }
+   
+}
+@media(min-width:361px) and (max-width:480px) {
+
+    .carousel-indicators {
+        bottom: -25%;
+    }
+    .header .btn-trp{
+        margin-top: 30px;
+    }
+   
+   
+}
+@media(min-width:481px) and (max-width:767px) {
+
+    .carousel-indicators {
+        bottom: -15%;
+    }
+}
+@media (max-width:767px) {
+    .show-heading , .svg-section p   {
+        font-size: 22px;
+    }
+    .right-top-text, .right-bottom-text  {
+        font-size: 22px;
+    }
+   
+    .header .btn-trp{
+        margin-top: 30px;
+    }
+    .btn-list{
+        display: -ms-inline-grid;
+        display: -moz-inline-grid;
+        display: inline-grid;
+    }
+    .btn-list a{
+       width: max-content;
+       margin:auto;
+    }
+    .phone-number {
+    
+        word-spacing: 0;
+        padding: 20px 30px;
+        font-size: 16px;
+    
+
+    }
+    .contact-box {
+        /* border: 2px solid white; */
+        height: 5.5rem;
+    }
 
 }
-@media (max-width:991px){
+@media (max-width:991px) {
+
+      
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: 0.8rem 0rem;
+        text-align: center;
+    }    
+    nav.navbar{
+        padding: 1.5rem 0.4rem;
+        display: flex;
+    }
+
+    .heading-feature h1 {
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+        width: 65%;
+        margin: auto;
+        line-height: 44px;
+    }
+    .footer-bottom{
+        height: auto;
+    }
+        
+    .footer-bottom .col-lg-4{
+        margin: 1.1rem 0rem;
+    }
+
+    .last-row{
+        margin-top: 2rem;
+    }
+    .footer-top{
+        height: auto;
+    }
+     .mar-left-60-ban-btn{
+    margin-left: auto;
+      text-align: center;
+    }
+    .big-text {
+        font-size: 70px;
+        letter-spacing: -1px;
+        margin-right: 20px;
+    }
+    .welcome-box {
+       
+        font-size: 21px;
+    }
+
+    .small-para {
+      
+        font-size: 16px;
+    }
+
+    .heading-feature h1 {
+        font-size: 22px;
+        color: white;
+        text-transform: uppercase;
+        width: 65%;
+        margin: auto;
+        line-height: 44px;
+    }
+
+    .img-box {
+      
+        justify-content: center;
+    }
+
+    .footer-head{
+        display: -ms-inline-grid;
+        display: inline-grid;
+        display: -moz-inline-grid;
+    }
+    .text-box1 {
+       
+        text-align: center;
+    }
+    
+    
     
 }
+
 @media (max-width:1200px){
-    
+    .main-right {
+        display: none;
+    }
 }
-@media (min-width:992px){
-    
-}
+
+
+
+
+
