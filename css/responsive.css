@@ -56,6 +56,15 @@
         /* border: 2px solid white; */
         height: 5.5rem;
     }
+    .p-detail-banner .container-fluid .svg-text {
+        position: absolute;
+        top: 15%;
+        left: 32%;
+        transform: translate(-37%,-26%);
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+    }
 
 }
 @media (max-width:991px) {

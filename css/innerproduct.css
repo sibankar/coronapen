@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.product-detail .container-fluid{
+   height: auto;
+   width: 100%;
+}
+
+.inner-p-left-col,
+.inner-p-right-col{
+    position: relative;
+}
+
+.inner-p-left-col img{
+    height: 50rem;
+    display:block;
+    margin-left: auto;
+}
+
+
+.inner-p-right-col .details-box{
+   min-height: auto;
+   margin-top: 5.9rem;
+   margin-left: -20px;
+}
+.inner-p-right-col .details-box img{
+    height: 8rem;
+}
+
+p.para-1{
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+ p.para-2{
+     margin-top: 26.6px;
+     font-weight: 600;
+}
+
+p.para-3{
+    margin-top: 26.6px;
+    font-weight: 600;
+}
+
+p.para-4{
+    margin-top: 26.6px;
+    font-weight: 600;
+}
+
+
+.corporate-box{
+    margin-left: -20px;
+}
+
+.corporate-heading h6{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.corporate-para{
+    font-weight: 600;
+    line-height: -7.5px;
+}
+
+.corporate-contact .fa-phone-volume{
+  font-size: 1.7rem;
+}
+
+.corporate-contact{
+    font-size: 1.4rem;
+}
+
+
+/* ends here */
+
+
+/* product details banner starts from here */
+
+.p-detail-banner .container-fluid{
+    max-height: 39rem;
+    width: 100%;
+    padding: 0 0;
+    color: white;
+    position: relative;
+}
+
+.p-detail-banner .container-fluid img{
+   min-height: 100%;
+   width: 100%;
+    /* opacity: 0.1; */
+}
+
+.p-detail-banner .container-fluid .svg-text{
+    position: absolute;
+    top: 37%;
+    left: 26%;
+    transform: translate(-37%,-26%);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+
+/* product details banner ends here */
