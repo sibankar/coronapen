@@ -137,7 +137,7 @@ nav.navbar{
       background: #fff;
       content: "";
       height: 1px;
-      width: 80%;
+      width: 584px;
       top: 12%;
       left: 50%;
       transform: translate(-50%,-50%);
@@ -152,14 +152,21 @@ nav.navbar{
     background: #fff;
     content: "";
     height: 1px;
-    width: 80%;
+    width: 584px;
     bottom: -12%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
     opacity: 1;
   }
-
+  .btn-white:hover{
+      color: #000;
+      text-decoration: none;
+  }
+  .btn-trp:hover{
+      color:#fff;
+      text-decoration: none;
+  }
 
 
 .sub-right-top img{
@@ -178,13 +185,13 @@ nav.navbar{
     position: absolute;
     top: 5%;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 32px;
 }
 .right-top-text{
     position: absolute;
     bottom: 5%;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 
@@ -553,5 +560,13 @@ padding: 100px 0;
     margin:  auto;
 }
 
-
-
+.product-detail{
+    padding: 50px 0;
+}
+.p-detail-banner{
+    background: url(../images/viruspen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+}

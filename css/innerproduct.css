@@ -98,7 +98,7 @@ p.para-4{
 
 .p-detail-banner .container-fluid .svg-text{
     position: absolute;
-    top: 37%;
+    top: 100px;
     left: 26%;
     transform: translate(-37%,-26%);
     font-size: 2rem;

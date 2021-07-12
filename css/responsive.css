@@ -5,7 +5,12 @@
     .carousel-indicators {
         bottom: -30%;
     }
-   
+    .small-para {
+        position: absolute;
+        letter-spacing: 1.4px;
+        bottom: -18%;
+    }
+    
 }
 @media(min-width:361px) and (max-width:480px) {
 
@@ -41,7 +46,7 @@
         display: inline-grid;
     }
     .btn-list a{
-       width: max-content;
+       width:180px;
        margin:auto;
     }
     .phone-number {
@@ -52,24 +57,94 @@
     
 
     }
+    .welcome-box::before,.welcome-box::after { 
+        width: 90%;
+    }
     .contact-box {
         /* border: 2px solid white; */
         height: 5.5rem;
     }
     .p-detail-banner .container-fluid .svg-text {
         position: absolute;
-        top: 15%;
+        top: 50px;
         left: 32%;
         transform: translate(-37%,-26%);
         font-size: 18px;
         font-weight: 500;
         line-height: 21px;
     }
+    .product-banner,.product-banner1 {
+        padding: 0;
+        height: 170px;
+        background-size: 100% 100%;
+    }
+    .details-box p{
+        font-size: 12px;
+        margin: 14px 0;
+    }
+    .d-none-mob{
+        display: none;
+    }
+    .d-none-web{
+        display: block;
+    }
+    .p-detail-banner {
+        background: url(../images/viruspen.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        height: 300px;
+    }
 
 }
 @media (max-width:991px) {
-
-      
+    
+    .sub-left {
+        padding: 30px 15px;
+        height: unset;
+    }
+    .content-bx {
+        padding: 0;
+    }
+    .show-heading {
+       text-align: center;
+    }
+    .sub-right-top img {
+    position: absolute;
+    top: 0;
+    right: 28%;
+    z-index: 2;
+    width: 14%;
+}
+.sub-right-bottom img {
+    position: absolute;
+    bottom: 0;
+    right: 12%;
+    z-index: 2;
+    width: 14%;
+}
+.navbar-collapse{
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+.navbar-collapse ul li a{
+    margin: 10px 0;
+}
+.navbar-collapse  .btn-1{
+   position: relative;
+   top: 20px;
+}
+    .navbar-brand {
+        font-weight: bold;
+        width: 65%;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.5);
+        border:none;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../images/bar.svg);
+    }
     #navbarSupportedContent > ul > li:nth-child(n) > a{
         padding: 0.8rem 0rem;
         text-align: center;
@@ -100,6 +175,7 @@
     }
     .footer-top{
         height: auto;
+        padding: 30px 0;
     }
      .mar-left-60-ban-btn{
     margin-left: auto;
@@ -124,7 +200,7 @@
         font-size: 22px;
         color: white;
         text-transform: uppercase;
-        width: 65%;
+        width: 100%;
         margin: auto;
         line-height: 44px;
     }
@@ -143,14 +219,82 @@
        
         text-align: center;
     }
-    
-    
-    
+    .contacts {
+        margin-bottom: 30px;
+    }
+    .log-in .address {
+        justify-content: left;
+    }
+    .log-in-heading {
+        font-size: 32px;
+    }
+    .about-banner {
+        background-color: #ffd9c9;
+        padding: 40px 0;
+    }
+    .about-banner-content h1{
+        font-size: 32px;
+        margin: 35px  10px 20px;
+    }
+    .about-banner-content p{
+        font-size: 16px;
+        margin: 0px 10px 30px;
+    }
+    .corporate-box {
+        margin-left: 0;
+    }
 }
 
 @media (max-width:1200px){
     .main-right {
         display: none;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .product-banner,.product-banner1 {
+        height: 280px;
+    }
+    .welcome-box::after,.welcome-box::before  {
+        position: absolute;
+        background: #fff;
+        content: "";
+        height: 1px;
+        width: 40%;
+        bottom: -12%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 1;
+        opacity: 1;
+    }
+}
+@media (min-width:768px){
+    .d-none-mob{
+        display: block;
+    }
+    .d-none-web{
+        display: none;
+    }
+}
+@media (min-width:1920px) {
+    .p-detail-banner .container-fluid .svg-text {
+        position: absolute;
+        top: 300px;
+        left: 26%;
+        transform: translate(-37%,-26%);
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .right-bottom-text {
+        position: absolute;
+        top: 5%;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    .right-top-text{
+        position: absolute;
+        bottom: 5%;
+        font-weight: bold;
+        font-size: 40px;
     }
 }
 
