@@ -566,7 +566,6 @@ padding: 100px 0;
     margin:  auto;
 }
 
-
 .product-detail{
     padding: 50px 0;
 }
@@ -583,80 +582,3 @@ padding: 100px 0;
 .about-banner-content p{
     margin-bottom: 30px;
 }
-
-/*innerprodut*/
-.p-detail-banner{
-    background-image: url(../images/viruspen.svg);
-}
-.details-box{
-    margin-bottom: 20px;
-}
-
-.product-detail{
-    padding-top:50px;
-}
- 
- .inner-p-left-col,
- .inner-p-right-col{
-     position: relative;
- }
- 
- .inner-p-left-col img{
-     height: 50rem;
-     display:block;
-     margin-left: auto;
- }
- 
- 
- .inner-p-right-col .details-box{
-    min-height: auto;
-    margin-top: 5.9rem;
-  
- }
- .inner-p-right-col .details-box img{
-     height: 8rem;
- }
- 
- p.para-1{
-     margin-top: 8px;
-     font-weight: 600;
- }
- 
-  p.para-2{
-      margin-top: 26.6px;
-      font-weight: 600;
- }
- 
- p.para-3{
-     margin-top: 26.6px;
-     font-weight: 600;
- }
- 
- p.para-4{
-     margin-top: 26.6px;
-     font-weight: 600;
- }
- 
- 
- 
- 
- /* ends here */
- 
- 
- /* product details banner starts from here */
- 
-
- 
-
- 
- .p-detail-banner .container-fluid .svg-text{
-     position: absolute;
-     top: 37%;
-     left: 26%;
-     transform: translate(-37%,-26%);
-     font-size: 2rem;
-     font-weight: 500;
- }
- 
- 
- /* product details banner ends here */
