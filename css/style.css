@@ -225,7 +225,7 @@ nav.navbar{
   }
 
   .row .sub-right{
-      background: #000;
+      background: rgb(255, 255, 255);
       height: 30rem;
   }
 
