@@ -582,3 +582,7 @@ padding: 100px 0;
 .about-banner-content p{
     margin-bottom: 30px;
 }
+
+.navbar-brand img{
+    max-width: 240px;
+}
